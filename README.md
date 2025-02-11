@@ -10,7 +10,7 @@ Make sure to turn on `enable-experiment-mode=on` in `server.properties`.
 
 ### Usage:
 
-1. Download the ResourcePack from https://mcpedl.com/1-17-amethyst-equipment-armor-tools/ ,Only need to download the
+1. Download the ResourcePack from https://www.xlitemc.com/amethyst-armor-tools-and-spear-addon ,Only need to download the
    ResourcePack no BehaviorPack.
 2. Download the plugin from the release, and distribute the plugin and resource pack into the `plugins`
    and `resource_packs` folders.

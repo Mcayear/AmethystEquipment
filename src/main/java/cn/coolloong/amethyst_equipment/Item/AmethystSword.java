@@ -5,6 +5,7 @@ import cn.nukkit.item.ItemSwordDiamond;
 import cn.nukkit.item.customitem.CustomItemDefinition;
 import cn.nukkit.item.customitem.ItemCustomTool;
 import cn.nukkit.item.customitem.data.ItemCreativeCategory;
+import cn.nukkit.item.customitem.data.ItemCreativeGroup;
 
 import java.util.List;
 
@@ -17,9 +18,9 @@ public class AmethystSword extends ItemCustomTool {
     public CustomItemDefinition getDefinition() {
         return CustomItemDefinition
                 .toolBuilder(this, ItemCreativeCategory.EQUIPMENT)
-                .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
-                .addRepairItems(List.of(Item.fromString("yes:amethyst_sword")), 400)
-                .creativeGroup("itemGroup.name.sword")
+        //         .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
+        //         .addRepairItems(List.of(Item.fromString("yes:amethyst_sword")), 400)
+                .creativeGroup(ItemCreativeGroup.SWORD)
                 .allowOffHand(true)
                 .handEquipped(true)
                 .build();

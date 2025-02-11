@@ -17,8 +17,8 @@ public class AmethystLeggings extends ItemCustomArmor {
     public CustomItemDefinition getDefinition() {
         return CustomItemDefinition
                 .armorBuilder(this, ItemCreativeCategory.EQUIPMENT)
-                .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
-                .addRepairItems(List.of(Item.fromString("yes:amethyst_leggings")), 300)
+        //         .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
+        //         .addRepairItems(List.of(Item.fromString("yes:amethyst_leggings")), 300)
                 .creativeGroup("itemGroup.name.leggings")
                 .build();
     }

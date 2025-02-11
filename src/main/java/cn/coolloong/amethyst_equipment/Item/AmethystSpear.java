@@ -29,8 +29,8 @@ public class AmethystSpear extends ItemCustomTool {
     public CustomItemDefinition getDefinition() {
         return CustomItemDefinition
                 .toolBuilder(this, ItemCreativeCategory.EQUIPMENT)
-                .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
-                .addRepairItems(List.of(Item.fromString("yes:amethyst_spear")), 400)
+        //         .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
+        //         .addRepairItems(List.of(Item.fromString("yes:amethyst_spear")), 400)
                 .renderOffsets(new RenderOffsets(
                                 Offset.builder()
                                         .position(0.48f, -0.128f, -0.946f)

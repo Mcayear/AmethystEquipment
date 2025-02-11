@@ -17,8 +17,8 @@ public class AmethystBoots extends ItemCustomArmor {
     public CustomItemDefinition getDefinition() {//todo 加上自定义击退抵抗 加上物品修复
         return CustomItemDefinition
                 .armorBuilder(this, ItemCreativeCategory.EQUIPMENT)
-                .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
-                .addRepairItems(List.of(Item.fromString("yes:amethyst_boots")), 200)
+        //         .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
+        //         .addRepairItems(List.of(Item.fromString("yes:amethyst_boots")), 200)
                 .creativeGroup("itemGroup.name.boots")
                 .build();
     }

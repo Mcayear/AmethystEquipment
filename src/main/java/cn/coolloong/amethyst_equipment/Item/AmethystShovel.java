@@ -17,8 +17,8 @@ public class AmethystShovel extends ItemCustomTool {
     public CustomItemDefinition getDefinition() {
         return CustomItemDefinition
                 .toolBuilder(this, ItemCreativeCategory.EQUIPMENT)
-                .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
-                .addRepairItems(List.of(Item.fromString("yes:amethyst_shovel")), 400)
+        //         .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
+        //         .addRepairItems(List.of(Item.fromString("yes:amethyst_shovel")), 400)
                 .speed(12)
                 .creativeGroup("itemGroup.name.shovel")
                 .allowOffHand(true)

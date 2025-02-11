@@ -17,8 +17,8 @@ public class AmethystHelmet extends ItemCustomArmor {
     public CustomItemDefinition getDefinition() {
         return CustomItemDefinition
                 .armorBuilder(this, ItemCreativeCategory.EQUIPMENT)
-                .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
-                .addRepairItems(List.of(Item.fromString("yes:amethyst_helmet")), 220)
+        //         .addRepairItems(List.of(Item.fromString("minecraft:amethyst_shard")), 100)
+        //         .addRepairItems(List.of(Item.fromString("yes:amethyst_helmet")), 220)
                 .creativeGroup("itemGroup.name.helmet")
                 .build();
     }
